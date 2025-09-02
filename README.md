@@ -2,14 +2,16 @@
 
 Pași pentru Windows cu bash:
 1. Clonează repository-ul:
-bashgit clone https://github.com/colacbrr/flashcards-app.git
+git clone https://github.com/colacbrr/flashcards-app.git
 cd flashcards-app
-2. Verifică Python și pip:
-bashpython --version
+
+3. Verifică Python și pip:
+python --version
 pip --version
+
 # Dacă nu ai Python, descarcă de pe python.org
 3. Installează dependențele Python:
-bashpip install PyQt5 pymupdf python-docx aiohttp ollama
+pip install PyQt5 pymupdf python-docx aiohttp ollama
 4. Installează Ollama pe Windows:
 
 Mergi pe ollama.com
@@ -17,17 +19,24 @@ Descarcă "Ollama for Windows"
 Rulează installer-ul
 După instalare, deschide Command Prompt sau PowerShell și verifică:
 
-bashollama --version
+ollama --version
+
 5. Descarcă un model AI:
-bashollama pull mistral
+ollama pull mistral
+
 (Poate dura câteva minute, modelul are ~4GB)
-6. Pornește Ollama (dacă nu pornește automat):
-bashollama serve
+
+7. Pornește Ollama (dacă nu pornește automat):
+ollama serve
+
 Lasă terminalul ăsta deschis - Ollama trebuie să ruleze în background.
-7. În alt terminal, pornește aplicația:
-bashcd flashcards-app
+
+9. În alt terminal, pornește aplicația:
+cd flashcards-app
 python main.py
+
 (sau cum se numește fișierul principal - probabil flashcard_app.py sau similar)
+
 Structura proiectului ar trebui să arate așa:
 flashcards-app/
 ├── main.py (sau flashcard_app.py)
@@ -46,3 +55,4 @@ Dacă vrei să testezi interfața fără să aștepți să se instaleze Ollama:
 Deschide fișierul Python
 Schimbă USE_MOCK = False în USE_MOCK = True
 Rulează aplicația - va genera flashcards mock pentru testare
+
