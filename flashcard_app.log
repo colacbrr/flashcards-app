@@ -32,3 +32,12 @@
 2025-09-03 04:36:52,715 - CRITICAL - Failed to start application: 'FlashcardApp' object has no attribute 'debug_check'
 2025-09-03 04:42:21,373 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
 2025-09-03 04:42:21,626 - CRITICAL - Failed to start application: 'FlashcardApp' object has no attribute 'finish_session'
+2025-09-03 05:28:05,499 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-03 05:28:05,943 - INFO - FlashCard Studio started
+2025-09-03 05:28:06,044 - INFO - Application started successfully
+2025-09-03 05:28:30,204 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-03 05:28:49,810 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-03 05:28:50,328 - INFO - Generated 5 unique flashcards
+2025-09-03 05:28:50,356 - INFO - Inserted 5 new cards into the local bank (doc_id=1).
+2025-09-03 05:29:19,376 - INFO - Using cached flashcards
+2025-09-03 05:29:19,388 - INFO - Inserted 0 new cards into the local bank (doc_id=1).

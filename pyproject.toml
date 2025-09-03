@@ -1,0 +1,15 @@
+[project]
+name = "flashcard-studio"
+version = "2.0.0"
+description = "LLM-powered flashcard generator and trainer"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "PyQt5>=5.15",
+  "pymupdf>=1.23",
+  "python-docx>=0.8.11",
+  "ollama>=0.1.8",
+]
+
+[project.scripts]
+flashcard-studio = "flashcard_app:main"
