@@ -1,0 +1,34 @@
+2025-09-03 03:25:20,522 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-03 03:25:20,875 - INFO - FlashCard Studio started
+2025-09-03 03:25:21,089 - INFO - Application started successfully
+2025-09-03 03:25:40,441 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-09-03 03:25:40,442 - ERROR - Error generating flashcards: model "mistral:7b-instruct" not found, try pulling it first (status code: 404)
+2025-09-03 03:25:44,012 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-09-03 03:25:44,013 - ERROR - Error generating flashcards: model "mistral:7b-instruct" not found, try pulling it first (status code: 404)
+2025-09-03 03:25:52,017 - INFO - Application closed
+2025-09-03 03:26:14,880 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-03 03:26:15,061 - INFO - FlashCard Studio started
+2025-09-03 03:26:15,230 - INFO - Application started successfully
+2025-09-03 03:26:29,629 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-09-03 03:26:29,630 - ERROR - Error generating flashcards: model "llama3.1:8b" not found, try pulling it first (status code: 404)
+2025-09-03 03:26:33,678 - INFO - Application closed
+2025-09-03 03:35:50,344 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-03 03:35:50,883 - INFO - FlashCard Studio started
+2025-09-03 03:35:51,094 - INFO - Application started successfully
+2025-09-03 03:36:04,906 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-09-03 03:36:04,907 - ERROR - Error generating flashcards: model "mistral:7b-instruct" not found, try pulling it first (status code: 404)
+2025-09-03 03:36:07,570 - INFO - Application closed
+2025-09-03 03:47:49,218 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-03 03:47:49,399 - INFO - FlashCard Studio started
+2025-09-03 03:47:49,641 - INFO - Application started successfully
+2025-09-03 03:48:33,919 - INFO - Application closed
+2025-09-03 03:50:14,608 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-03 03:50:14,820 - INFO - FlashCard Studio started
+2025-09-03 03:50:15,008 - INFO - Application started successfully
+2025-09-03 03:50:44,235 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-03 03:50:44,745 - INFO - Generated 5 unique flashcards
+2025-09-03 03:51:38,002 - INFO - Using cached flashcards
+2025-09-03 03:58:33,148 - INFO - Application closed
+2025-09-03 04:36:52,715 - CRITICAL - Failed to start application: 'FlashcardApp' object has no attribute 'debug_check'
+2025-09-03 04:42:21,373 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-09-03 04:42:21,626 - CRITICAL - Failed to start application: 'FlashcardApp' object has no attribute 'finish_session'
